@@ -9,7 +9,7 @@ var player = null;
 var yt = null;
 
 const client = new discord.Client({intents: 32767});
-const token = process.env['Pepe_token'];
+const token = process.env.Pepe_token;
 const {
     prefix
 } = require("./config.json");
